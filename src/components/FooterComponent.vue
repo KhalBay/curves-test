@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
-import {FooterLinkT} from "@/models/interfaces";
+import type {FooterLinkT} from "@/models/interfaces";
 
 const footerLinks = ref<FooterLinkT[]>([
   {title: 'Тарифы', link: '/'},

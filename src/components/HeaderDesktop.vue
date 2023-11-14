@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
-import {RateInfoT} from "@/models/interfaces";
+import type {RateInfoT} from "@/models/interfaces";
 
 const rateInfo = ref<RateInfoT[]>([
   {title: 'Тариф', value: 'Начальный'},
