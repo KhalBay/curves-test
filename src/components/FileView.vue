@@ -98,7 +98,7 @@ watch(() => currentFragmentIndex.value, () => {
       </div>
     </div>
     <div class="file-view-video-wrap">
-      <video src="/video1687347191.mp4" controls ref="videoPlayer" playsinline></video>
+      <video src="/video16873471912.mp4" controls ref="videoPlayer" playsinline></video>
     </div>
   </div>
 </template>
