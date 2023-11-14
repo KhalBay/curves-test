@@ -168,7 +168,7 @@ watch(() => currentFragmentIndex.value, () => {
   }
 
   &-video-wrap {
-    width: 430px;
+    width: auto;
     height: 270px;
     padding: 20px;
     box-sizing: border-box;
