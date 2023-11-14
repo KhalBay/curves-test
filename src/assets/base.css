@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #F9F9F6;
+  font-family: MONOSPACE;
+}
+
+::-webkit-scrollbar {
+  padding: 0 30px 0 0;
+  width: 5px;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #AAAAAA;
+  border-radius: 12px;
+}

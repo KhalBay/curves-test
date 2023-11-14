@@ -1,0 +1,8 @@
+@for $i from 1 through 500 {
+  .pb-#{$i} {
+    padding-bottom: $i + px;
+  }
+  .pt-#{$i} {
+    padding-top: $i + px;
+  }
+}
