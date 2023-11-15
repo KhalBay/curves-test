@@ -159,6 +159,7 @@ watch(() => currentFragmentIndex.value, () => {
     span {
       &:hover {
         background-color: #EBE6D8;
+        border-radius: 12px;
       }
       &.active-span-idx {
         background-color: #E1FE03;
